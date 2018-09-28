@@ -1,9 +1,6 @@
 import requests
 from flask import Flask
 
-# Import the application views
-from app import views
-
 app = Flask(__name__)
 @app.route('/')
 def receive_message():
